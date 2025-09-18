@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Matthew Schoen
+ * Prototype 3
+ * lets the player jump, when they can jump, and ends game
+ * 
+ */
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody rb;
@@ -19,8 +25,10 @@ public class PlayerController : MonoBehaviour
 
         forceMode = ForceMode.Impulse;
 
-        Physics.gravity *= gravityModifier;
-
+        if (Physics.gravity.y > -10)
+        {
+            Physics.gravity *= gravityModifier;
+        }
     }
 
     // Update is called once per frame
