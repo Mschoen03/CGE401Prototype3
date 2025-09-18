@@ -1,6 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+/*
+ * Matthew Schoen
+ * Prototype 3
+ * Whatever this is attached to will move left giving the illusion that the player is moving
+ * 
+ */
 
 public class MoveLeft : MonoBehaviour
 {

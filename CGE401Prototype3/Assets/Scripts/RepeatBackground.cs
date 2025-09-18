@@ -1,6 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+/*
+ * Matthew Schoen
+ * Prototype 3
+ * makes the background loop
+ * 
+ */
 
 public class RepeatBackground : MonoBehaviour
 {
